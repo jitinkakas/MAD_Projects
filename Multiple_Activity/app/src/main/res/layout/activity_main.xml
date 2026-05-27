@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:id="@+id/t1"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to activity two"
+        android:layout_below="@+id/t1"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:id="@+id/b1"
+
+        />
+
+
+
+</RelativeLayout>
